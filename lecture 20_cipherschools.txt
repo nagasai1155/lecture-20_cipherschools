@@ -1,0 +1,46 @@
+//time complexity
+//1.atomic /basic statements ->these will take 1 unit of time
+//
+
+//1.big -O noatation
+for(int i=0;i<n;i++)
+{
+    System.out.println(n);
+
+}
+//worst case time complexity is n
+
+//2.big omega notation
+
+f(x)>=n.g(x)
+
+//3. theta notation ->tight bound
+
+c1.g(n)<f(n)<c2.g(n)
+
+
+//problem 1
+for(int i=0;i<m;i++)
+{
+    for(int j=0;j<n;j++)
+    {
+        System.out.println("hello");
+    }
+}
+//time complexity is m*n
+ //problem2
+
+ for(int i=0;i<m;i++)
+ {
+    for(int j=0;j<6;j++)
+    {
+        System.out.println("hello");
+    }
+ }
+ //time complexity is O(m*6)
+ finally O(m);
+
+ //sorting
+ 1.pick the minimum element
+ 2.keep in front of small element
+ 3.search for next element
